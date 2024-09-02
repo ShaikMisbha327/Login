@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form">
+       <center><h1 class="h1">Login</h1></center>
+        <form id="loginForm">
+            <lable class="lable">
+            <strong class="strong" ><i class="fa-solid fa-user info" style="color: #d11576"> </i>UserName</strong>
+            <input class="name" type="text" placeholder="Enter your name">
+            </lable>
+         
+            <lable class="lable">
+            <strong  class="strong" ><i class="fa-solid fa-lock info" style="color: #d11576;"> </i>Password</strong>
+            <input class="password" type="password" id="password" name="password" placeholder=" password" required>
+            </lable>
+        
+            <lable class="lable">
+            <strong class="strong"><i class="fa-solid fa-lock info" style="color: #d11576; "> </i>Comform Password</strong>
+            <input class="Comformpassword" type="password" id="confirmpassword" name="confirmpassword" placeholder="conform password hear" required>
+            </lable>
+    
+         
+        <button id="button" class="button" type="submit">Submit</button>
+        <button id="button" class="button" type="reset">Resest</button>
+
+        <div id="message" class="message"></div>
+
+        </form>
+
+
+    </div>
+    <script src="app.js"></script>
+
+    </body>
+    </html>

@@ -1,0 +1,112 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background:linear-gradient(to top,#774a6a,#77206c,#620659) ;
+    background-size: cover;
+    
+  }
+  .form{
+    width: 90%;
+    max-width: 400px;
+    background-color: #fff;
+    box-shadow: 0 5px 21px #474747;
+    padding:20px ;
+    border-radius: 20px;
+  
+    
+  
+  }
+  .lable{
+    position: relative;
+    display: block;
+    margin-bottom: 25px;
+  }
+  .h1{
+    color: #d11576;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 20px;
+  
+  }
+  .info{
+    margin-right:12px ;
+  }
+  .name,.password,.Comformpassword{
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 16px;
+    border-radius: 25px;
+     border: 0;
+    background-color: #f1e4e3;
+  }
+  
+  .strong{
+    margin: 5px;
+    display: block;
+    
+  }
+  .button{
+    
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    background:linear-gradient(to left,#e91e63,#f44336) ;
+    box-shadow: 0 10px 20px #d3094c60;
+    border-radius: 25px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #fff;
+    text-transform:uppercase;
+    letter-spacing:1px ; 
+    margin: 10px 0;
+    
+    
+  }
+  .message{
+  
+    font-size: 0.9em;
+    margin-top: 10px;
+    color:red;
+  }
+  
+  /* Media Query for Desktop */
+  @media (min-width: 768px) {
+    .form {
+        max-width: 400px;
+    }
+  
+    .h1 {
+        font-size: 46px; /* Larger font size for larger screens */
+    }
+  
+    .name, .password, .Comformpassword {
+        width: 80%;
+    }
+  
+    .button {
+        width: auto;
+        display: inline-block;
+    }
+  }
+  
+  /* Media Query for Mobile */
+  @media (max-width: 767px) {
+    .h1 {
+        font-size: 28px; /* Smaller font size for mobile screens */
+    }
+  
+    .name, .password, .Comformpassword {
+        width: 80%;
+    }
+  
+    .button {
+        width: 100%;
+    }
+  }
